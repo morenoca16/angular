@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Hoja de vida</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+
+  <ion-img 
+  src='/assets/pp.jpeg' 
+  alt="Paula Moreno" class="foto"
+></ion-img>
+  <br>
+  <ion-content>
+    <ion-label>
+      Nombres: Paula Liseth
+      <br>
+      Apellidos:Moreno Castiblanco
+      <br>
+      Telefono:3202202002
+      <br>
+      Ficha:2503816
+      <br>
+      Edad:28 años
+      <br>
+      Descripcion: 
+      <br>
+      <ion-button [routerLink]="['/folder']">
+        PROYECTOS
+      </ion-button>
+
+      <ion-button [routerLink]="['/multimedia']">
+        MULTIMEDIA
+      </ion-button>
+    </ion-label>
+  </ion-content>
+
+</ion-content>
